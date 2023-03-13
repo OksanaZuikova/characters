@@ -2,17 +2,17 @@
   position: relative;
 }
 input {
+  box-sizing: border-box;
   width: 100%;
   padding: 16px;
   padding-left: 48px;
-  height: 22px;
+  height: 56px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 70px;
 }
 .search-icon {
   position: absolute;
