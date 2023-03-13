@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+input {
+  width: 100%;
+  padding: 16px;
+  padding-left: 48px;
+  height: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 70px;
+}
+.search-icon {
+  position: absolute;
+  left: 19px;
+  top: 16px;
+}
