@@ -7,6 +7,8 @@ export default function Cards(props) {
     <div className="cards">
       {props.value.map((character) => (
         <Card
+          key={character.id}
+          id={character.id}
           name={character.name}
           species={character.species}
           image={character.image}

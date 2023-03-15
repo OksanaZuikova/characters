@@ -9,7 +9,6 @@ export default function Main() {
   let characters = [];
   axios.get("https://rickandmortyapi.com/api/character").then(handleResponse);
   function handleResponse(response) {
-    console.log(response);
     characters = response.data.results;
     characters = characters.sort((x, y) => x.name - y.name);
     setDisplayableCharacters(characters.slice(0, 8));

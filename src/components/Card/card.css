@@ -30,3 +30,6 @@
   padding-left: 16px;
   margin: 0;
 }
+.card-link {
+  text-decoration: none;
+}

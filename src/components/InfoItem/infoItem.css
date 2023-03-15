@@ -1,0 +1,26 @@
+.information {
+  box-sizing: border-box;
+  width: 413px;
+  height: 64px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+  padding-left: 16px;
+  padding-top: 9px;
+  margin: 0 auto;
+}
+.info-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #081f32;
+  margin: 0;
+}
+.info-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #6e798c;
+  margin: 0;
+}
