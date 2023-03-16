@@ -14,6 +14,12 @@ export default function Character() {
       .then((response) => setCharacter(response.data));
   });
 
+  let originName;
+  for (const key in character) {
+    if (key === "origin") {
+      originName = character[key].name;
+    }
+  }
   let type = character.type;
   if (type === "") {
     type = "Unknown";
@@ -34,7 +40,7 @@ export default function Character() {
         <InfoItem title="Gender" info={character.gender} />
         <InfoItem title="Status" info={character.status} />
         <InfoItem title="Specie" info={character.species} />
-        <InfoItem title="Specie" info={`${character.origin.name}`} />
+        <InfoItem title="Origin" info={originName} />
         <InfoItem title="Type" info={type} />
       </div>
     </div>

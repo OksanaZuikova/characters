@@ -1,4 +1,12 @@
 .title-img {
+  max-width: 100%;
   display: block;
   margin: 86px auto 16px;
+  border-radius: 8px 8px 0 0;
+}
+@media only screen and (max-width: 600px) {
+  .title-img {
+    margin-top: 92px;
+    margin-bottom: 32px;
+  }
 }
