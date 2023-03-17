@@ -1,5 +1,7 @@
 .character {
   padding-top: 76px;
+  padding-bottom: 142px;
+  width: 100%;
 }
 .character-photo {
   border: 5px solid #f2f2f7;
@@ -28,4 +30,17 @@
 .back-link {
   position: relative;
   top: 23px;
+}
+@media only screen and (max-width: 600px) {
+  .character {
+    padding-top: 124px;
+    padding-bottom: 85px;
+  }
+  .subtitle {
+    text-align: start;
+  }
+  .character-photo {
+    width: 150px;
+    height: auto;
+  }
 }

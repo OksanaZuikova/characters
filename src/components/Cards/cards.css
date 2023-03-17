@@ -3,13 +3,12 @@
   justify-content: center;
   gap: 24px 20px;
   flex-wrap: wrap;
-  margin-bottom: 188px;
+  margin-bottom: 30px;
   margin-top: 61px;
 }
 @media only screen and (max-width: 600px) {
   .cards {
     flex-direction: column;
-    margin-bottom: 191px;
     margin-top: 28px;
     gap: 32px;
     flex-wrap: nowrap;

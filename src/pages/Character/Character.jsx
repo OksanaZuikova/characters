@@ -8,6 +8,7 @@ import "./character.css";
 export default function Character() {
   const [character, setCharacter] = useState({});
   const id = useParams().id;
+
   useEffect(() => {
     axios
       .get(`https://rickandmortyapi.com/api/character/${id}`)

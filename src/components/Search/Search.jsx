@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./search.css";
 
 export default function Search(props) {
-  const [value, setValue] = useState(localStorage.getItem("value") || "");
+  const [value, setValue] = useState(sessionStorage.getItem("value") || "");
 
   useEffect(() => {
-    localStorage.setItem("value", value);
+    sessionStorage.setItem("value", value);
   }, [value]);
 
   function handleChange(event) {
