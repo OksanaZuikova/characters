@@ -1,6 +1,5 @@
 import React from "react";
 import FacebookLogin from "@greatsumini/react-facebook-login";
-import "./facebookLoginButton.css";
 
 class MyComponent extends React.Component {
   responseFacebook(response) {
